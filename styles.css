@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none; /* Optional: removes the border */
+    border-radius: 5px; /* Optional: adds rounded corners */
+    color: white; /* Text color */
+    transition: background-color 0.3s ease; /* Smooth color change on hover */
+}
+
+#yes-button {
+    background-color: #28a745; /* Green background */
+}
+
+#yes-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+#no-button {
+    background-color: #dc3545; /* Red background */
+}
+
+#no-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
